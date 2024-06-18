@@ -1,0 +1,45 @@
+/* Fonts */
+/* Applies to general body text */
+.inter-body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Normal weight */
+  }
+  
+  /* Applies to headers or bold text */
+  .inter-bold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; /* Bold weight */
+  }
+  
+  
+body {
+    font-family: 'Inter', sans-serif; /* This sets the font for all text within the body */
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+}
+
+/* Specific styles for the navigation bar */
+header nav {
+    background: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-weight: 700; /* Makes the logo bolder */
+    font-size: 24px;
+}
+
+.nav-links a {
+    font-weight: 400; /* Regular weight for navigation links */
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
