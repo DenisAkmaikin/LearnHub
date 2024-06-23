@@ -1,2 +1,2 @@
-# LearnHub
-Platform focused on individual learning planning
+#MyWordle
+Wordle web game
