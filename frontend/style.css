@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: normal;
+    filter: blur(1px);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* This ensures vertical alignment */
+}
+
+li {
+    margin-right: 20px; /* Adds spacing between the links */
+}
+
+li:last-child {
+    margin-right: 0; /* Removes margin from the last item */
+}
+
+a {
+    text-decoration: none;
+    color: black; /* Adjust color as needed */
+    font-size: 16px;
+}
