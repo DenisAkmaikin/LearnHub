@@ -34,3 +34,21 @@ a {
     color: black; /* Adjust color as needed */
     font-size: 16px;
 }
+
+.fas {
+    filter: blur(1px); 
+    transition: filter 0.6s ease; /* Smooth transition for the blur effect */
+}
+
+.fas:hover {
+    filter: blur(0); /* Remove the blur when hovered over */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+}
+
+
